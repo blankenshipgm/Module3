@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 title: Wuxia Scrape
 description: Wuxia Scrape is a python application that writes webnovels from NovelFull into text documents on your computer.
 logo: /assets/images/logo.png

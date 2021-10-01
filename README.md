@@ -1,54 +1,42 @@
 # Introduction 
-This page covers the installation of Wuxia Scrape and its current capabillities. 
+This page covers the workflow of using a github repository.
 
 # Installation
 ### Requirements
 * A linux terminal
-* Python3 
-  * Check your version of python with:
-```
-$ python -V
-```
-  * Install latest version with: 
-```
-$ sudo apt-get install python3.6
-```
-* Beautiful Soup4
-  * Python library that enables script to parse HTML files.
-  * Install library with 
-```
-$ sudo apt-get install python3-bs4
-```
-* [Wuxia Scrape](https://github.com/BrickGoat/wuxia_scrape)
-  * Download directly from link above or use: 
-```
-$ git clone https://github.com/BrickGoat/wuxia_scrape
-```
+* A github accout
+  * Click here to create github account: (https://github.com/login)
 
-# Command-line arguments
-Here's a list of command-line arguments to Wuxia Scrape and what they do.
+# Process
+Here's a list of steps to clone a repository, make changes, and then merge the changes to the main repository.
 
-### [-h] / [--help] : get help
-This flag will print out help information for Wuxia Scrape.
+### Step one
+Create branch for new work.
 
-### [-s] / [--start=] : start writing from this chapter
-This flag **must be** followed by a number specifying the **first chapter** to write from.
+### Step Two
+Create, modify files.
 
-### [-e] / [--end=] : write up to and including this chapter
-This flag allows you to specify the **last chapter** to write into a text document. Only the chapter specified by -s will be used if -e is not used.
+### Step Three
+Add and Commit changes.
 
-### [-l] / [--link=] : link of novel homepage
-This flag is followed by a link coming from a novel on the [NovelFull](https:NovelFull.com) website. The link **must** be the **index page** of the web novel.
+### Step Four
+Generate pull request.
 
-### [-i] / [--individual] : separate chapters
-This flag caused the chapters to be put in its own individual text documents. If not used all chapters are written to a single file.
+### Step Five
+Conduct code review.
 
-# Examples
+### Step Six
+Merge main with branch.
+
+# Example
  
-### Getting chapters 1 through chapter 23 and storing them in individual files.
-1. Change into the directory of Wuxia Scrape
-2. Then change into scrape directory
-3. Run the command below:
+### Access repository and perform clone function
+1. Click here to access repository: (https://github.com/blankenshipgm/hello-world)
+2. Then click the drop down arrow on the green button labeled "Code"
+3. Make Sure HTTPS is selected and copy the address to your clipboard
+4. Access your linux terminal
+5. 
+6. Run the command below:
 ```
  $ python3 scrape.py --link=https://novelfull.com/library-of-heavens-path.html --start=1 --end=23 -i
 ```

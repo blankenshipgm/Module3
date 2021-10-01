@@ -41,7 +41,7 @@ Merge main with branch.
  $ python3 scrape.py --link=https://novelfull.com/library-of-heavens-path.html --start=1 --end=23 -i
 ```
 
-![Long option example](/assets/images/long-opt.png)
+![Long option example](/assets/images/git clone.png)
 
 ### Getting chapters 66 through chapter 84 and storing them in one file.
 - Run in Wuxia Scrape sub directory scrape:
